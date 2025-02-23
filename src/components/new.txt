@@ -1,3 +1,17 @@
 git remote add origin https://github.com/PiyushGoyal12/learning-Next.git
 git branch -M main
 git push -u origin main
+
+
+comppnents hierarchy
+<Layout>
+    <Template>
+        <ErrorBoundary fallback={<Error />}>
+            <Suspense fallback={<Loading />}>
+                <ErrorBoundary fallback={<NotFound />}>
+                    <Page />
+                </ErrorBoundary>
+            </Suspense>
+        </Error Boundary>
+    </Template>
+</Layout>
