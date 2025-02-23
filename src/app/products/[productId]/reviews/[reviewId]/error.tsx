@@ -34,3 +34,4 @@ export default function ErrorBoundary({
         </>
     );
 }
+// if you move this file to products folder then entire children product will rerender removing features products form our page
